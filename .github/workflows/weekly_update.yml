@@ -1,0 +1,80 @@
+name: Weekly auto-update
+
+on:
+  schedule:
+    #        ┌─ minute  ┌─ hour (UTC)  ┌─ day  ┌─ month  ┌─ weekday (1=Mon)
+    #        │          │              │        │         │
+    - cron: "0          3              *        *         1"
+    # Runs every Monday at 03:00 UTC
+    # By the time you wake up it's already done.
+
+  workflow_dispatch:
+    # Lets you click "Run workflow" manually from the Actions tab
+    # Useful for the very first test run
+
+permissions:
+  contents: write    # needed to git push the updated data files
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90    # scraping + 1 200 GitHub API calls takes ~25 min
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}   # use PAT so the push below is authenticated
+
+      # ── 2. Python ────────────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # ── 3. Dependencies ───────────────────────────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      # ── 4. Scrape websites for NEW tools ─────────────────────────────────────
+      - name: Scrape sources & add new tools
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          echo "▶ Scraping 7 sources for new OSS tools …"
+          python scripts/scrape_sources.py
+
+      # ── 5. Refresh GitHub metadata for EXISTING tools ─────────────────────────
+      - name: Refresh GitHub metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          echo "▶ Refreshing stars / releases / license for all tools …"
+          python scripts/refresh_github_meta.py
+
+      # ── 6. Validate ───────────────────────────────────────────────────────────
+      - name: Validate schema
+        run: python scripts/validate_schema.py
+
+      # ── 7. Commit & push (only if anything actually changed) ──────────────────
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/tools.csv data/tools.json data/tools.sql
+
+          # Exit 0 (skip commit) if nothing changed
+          if git diff --staged --quiet; then
+            echo "No changes — dataset is already up to date."
+            exit 0
+          fi
+
+          # Count new tools vs last commit for a useful commit message
+          NEW=$(git diff --staged data/tools.csv | grep "^+" | grep -v "^+++" | wc -l || echo "?")
+
+          git commit -m "chore: weekly update $(date -u +%Y-%m-%d) (+${NEW} rows)"
+          git push
+          echo "Pushed updated dataset."

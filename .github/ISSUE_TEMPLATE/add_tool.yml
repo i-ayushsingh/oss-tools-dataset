@@ -1,0 +1,64 @@
+name: "➕ Add a Tool"
+description: "Suggest an open-source tool to add to the dataset"
+title: "[ADD] <tool name>"
+labels: ["new-tool", "needs-review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: "e.g. Plausible Analytics"
+    validations:
+      required: true
+
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub URL
+      placeholder: "https://github.com/plausible/analytics"
+    validations:
+      required: true
+
+  - type: input
+    id: website_url
+    attributes:
+      label: Website URL (optional)
+      placeholder: "https://plausible.io"
+
+  - type: dropdown
+    id: pricing_type
+    attributes:
+      label: Pricing Type
+      options:
+        - Free
+        - Freemium
+        - Paid
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: self_hosted
+    attributes:
+      label: Self-hostable?
+      options:
+        - label: "Yes, this tool can be self-hosted"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line Description
+      placeholder: "Privacy-friendly Google Analytics alternative"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: The tool is genuinely open source (has a public OSS license)
+          required: true
+        - label: The GitHub repo is active (commits in the last 12 months)
+          required: true
+        - label: I checked this tool is not already in the dataset
+          required: true

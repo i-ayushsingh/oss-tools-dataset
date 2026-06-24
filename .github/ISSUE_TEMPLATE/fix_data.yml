@@ -1,0 +1,51 @@
+name: "🐛 Fix Data Error"
+description: "Report incorrect or outdated data for an existing tool"
+title: "[FIX] <tool name> — <what's wrong>"
+labels: ["data-fix", "needs-review"]
+body:
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      placeholder: "e.g. Mailtrain"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which field is wrong?
+      options:
+        - github_url
+        - website_url
+        - description
+        - license
+        - origin_country
+        - pricing_type
+        - is_self_hosted
+        - owner_type
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_value
+    attributes:
+      label: Current (wrong) value
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_value
+    attributes:
+      label: Correct value
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / Evidence
+      placeholder: "Link to GitHub page, official site, etc."
+    validations:
+      required: true
