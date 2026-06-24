@@ -97,19 +97,19 @@ def main():
         print(f"❌ File not found: {path}")
         sys.exit(1)
 
-    print(f"🔍 Validating {path} …")
+    print(f"Validating {path} ...")
     errors = validate(path)
 
     if errors:
-        print(f"\n❌ {len(errors)} error(s) found:\n")
+        print(f"\nFAIL: {len(errors)} error(s) found:\n")
         for e in errors[:50]:   # cap at 50 so CI logs stay readable
-            print(f"  • {e}")
+            print(f"  - {e}")
         if len(errors) > 50:
-            print(f"  … and {len(errors) - 50} more")
+            print(f"  ... and {len(errors) - 50} more")
         sys.exit(1)
     else:
         df = pd.read_csv(path)
-        print(f"✅ All {len(df)} rows valid")
+        print(f"OK: All {len(df)} rows valid")
         sys.exit(0)
 
 
