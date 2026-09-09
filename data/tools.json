@@ -4623,6 +4623,32 @@
     "is_self_hosted": true
   },
   {
+    "id": "2354e864-8ba3-48e6-ac74-6a8573366c86",
+    "name": "Posnic",
+    "description": "Offline-first open source POS and billing software for retail and restaurants.",
+    "github_url": "https://github.com/Posnic/POS",
+    "website_url": "https://posnic.io",
+    "stars": 3,
+    "last_updated": "2026-09-09 17:58:17.000",
+    "tags": "",
+    "platforms": "",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "origin_country": "India",
+    "language": [
+      "JavaScript"
+    ],
+    "country_code": "IN",
+    "is_archived": false,
+    "owner_type": "Organization",
+    "avatar_url": "https://img.logo.dev/posnic.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
+    "latest_release_tag": "v1.6.1",
+    "latest_release_at": "2026-08-28T04:45:42Z",
+    "pricing_type": "Free",
+    "is_self_hosted": true
+  },
+  {
     "id": "2370288f-7c9d-40c1-80bc-810c9d768d5e",
     "name": "Ryot",
     "description": "Ryot is a versatile platform for effortlessly tracking media, fitness, and more, replacing manual methods like spreadsheets.",
