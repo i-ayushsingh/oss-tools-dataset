@@ -1,8 +1,17 @@
 name: "➕ Add a Tool"
-description: "Suggest an open-source tool to add to the dataset"
+description: "Suggest an open-source tool to add to the dataset (must meet inclusion criteria)"
 title: "[ADD] <tool name>"
 labels: ["new-tool", "needs-review"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📌 Tool Submission Guidelines
+        Before submitting, please ensure the tool meets our **Inclusion Criteria**:
+        - Minimum **100+ GitHub stars**
+        - Actively maintained (commits/releases within the past 12 months)
+        - Legitimate OSI-approved open source license
+
   - type: input
     id: name
     attributes:
@@ -14,7 +23,7 @@ body:
   - type: input
     id: github_url
     attributes:
-      label: GitHub URL
+      label: GitHub Repository URL
       placeholder: "https://github.com/plausible/analytics"
     validations:
       required: true
@@ -22,8 +31,24 @@ body:
   - type: input
     id: website_url
     attributes:
-      label: Website URL (optional)
+      label: Official Website URL (optional)
       placeholder: "https://plausible.io"
+
+  - type: input
+    id: stars
+    attributes:
+      label: Current GitHub Star Count
+      placeholder: "e.g. 18500 (Must be at least 100+)"
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Open Source License (SPDX identifier)
+      placeholder: "e.g. AGPL-3.0, MIT, Apache-2.0"
+    validations:
+      required: true
 
   - type: dropdown
     id: pricing_type
@@ -54,11 +79,13 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Pre-submission checklist
+      label: Pre-submission Checklist
       options:
-        - label: The tool is genuinely open source (has a public OSS license)
+        - label: The tool has at least 100+ GitHub stars
           required: true
         - label: The GitHub repo is active (commits in the last 12 months)
           required: true
-        - label: I checked this tool is not already in the dataset
+        - label: The tool has a recognized, OSI-approved open source license
+          required: true
+        - label: I checked that this tool is not already in the dataset
           required: true

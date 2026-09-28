@@ -38,7 +38,7 @@ GITHUB_RE = re.compile(r"github\.com/([A-Za-z0-9._-]+/[A-Za-z0-9._-]+)")
 
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "oss-tools-dataset/1.0 (+https://github.com/YOUR_USERNAME/oss-tools-dataset)"
+    "User-Agent": "oss-tools-dataset/1.0 (+https://github.com/i-ayushsingh/oss-tools-dataset)"
 })
 
 
