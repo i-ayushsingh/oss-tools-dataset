@@ -1,11 +1,11 @@
 # Open Source Tools Dataset
 
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Tools](https://img.shields.io/badge/tools-1%2C222-blue)](data/tools.csv)
+[![Tools](https://img.shields.io/badge/tools-1%2C221-blue)](data/tools.csv)
 [![Last Refresh](https://img.shields.io/badge/last%20refresh-September%202026-green)](CHANGELOG.md)
 [![Weekly Update](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml/badge.svg)](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml)
 
-A curated, machine-readable dataset of **1,222 open-source tools** enriched with live GitHub metadata — scraped from 7 popular OSS discovery platforms.
+A curated, machine-readable dataset of **1,221 open-source tools** enriched with live GitHub metadata — scraped from 7 popular OSS discovery platforms.
 
 Originally collected for a personal project; now released as open data for anyone building directories, analytics, recommendation engines, or research on the OSS ecosystem.
 
@@ -28,7 +28,7 @@ Then load it:
 ```python
 import pandas as pd
 df = pd.read_csv("data/tools.csv")
-print(df.shape)           # (1222, 18)
+print(df.shape)           # (1221, 18)
 print(df.columns.tolist())
 ```
 
@@ -38,7 +38,7 @@ print(df.columns.tolist())
 
 | Metric | Value |
 |---|---|
-| Total tools | **1,222** |
+| Total tools | **1,221** |
 | Active (not archived) | **1,174** |
 | Archived | **48** |
 | Self-hostable | **836** |

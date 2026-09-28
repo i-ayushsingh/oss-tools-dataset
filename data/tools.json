@@ -26379,30 +26379,6 @@
     "is_self_hosted": true
   },
   {
-    "id": "ecf47fff-24b6-4ad9-9102-3b0b0e04c05c",
-    "name": "Analytics",
-    "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
-    "github_url": "https://github.com/plausible/analytics",
-    "website_url": "https://plausible.io/",
-    "stars": 27867,
-    "last_updated": "2026-07-20 06:17:55.892",
-    "license": [
-      "AGPL-3.0"
-    ],
-    "origin_country": "Global",
-    "language": [
-      "Elixir"
-    ],
-    "country_code": "UN",
-    "is_archived": false,
-    "owner_type": "Organization",
-    "avatar_url": "https://img.logo.dev/plausible.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "v3.2.1",
-    "latest_release_at": "2026-05-15T09:15:56Z",
-    "pricing_type": "Freemium",
-    "is_self_hosted": true
-  },
-  {
     "id": "edb58218-1c55-4383-9eca-5782f8933771",
     "name": "Cozy",
     "description": "Open-source personal cloud that automatically gathers all your data from third-party services. French-hosted with privacy-first design, no ads, and seamless device sync.",
