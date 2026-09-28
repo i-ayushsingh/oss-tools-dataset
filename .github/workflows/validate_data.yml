@@ -25,17 +25,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Validate CSV schema
+      - name: Validate CSV schema & parity
         run: python scripts/validate_schema.py --file data/tools.csv
 
-      - name: Validate JSON
-        run: python -c "import json; data=json.load(open('data/tools.json')); print(f'✅ JSON valid — {len(data)} records')"
+      - name: Validate JSON parsing
+        run: python -c "import json; data=json.load(open('data/tools.json', encoding='utf-8')); print(f'✅ JSON valid — {len(data)} records')"
 
       - name: Check for duplicate IDs
         run: |
           python -c "
           import json
-          data = json.load(open('data/tools.json'))
+          data = json.load(open('data/tools.json', encoding='utf-8'))
           ids = [d['id'] for d in data]
           dupes = [i for i in ids if ids.count(i) > 1]
           if dupes:
@@ -48,11 +48,24 @@ jobs:
         run: |
           python -c "
           import json
-          data = json.load(open('data/tools.json'))
-          urls = [d.get('github_url','').strip().rstrip('/') for d in data if d.get('github_url')]
+          data = json.load(open('data/tools.json', encoding='utf-8'))
+          urls = [d.get('github_url','').strip().rstrip('/').lower() for d in data if d.get('github_url')]
           dupes = {u for u in urls if urls.count(u) > 1}
           if dupes:
-              print(f'⚠️  Duplicate GitHub URLs: {dupes}')
-          else:
-              print(f'✅ No duplicate GitHub URLs')
+              print(f'❌ Duplicate GitHub URLs found: {dupes}')
+              exit(1)
+          print(f'✅ No duplicate GitHub URLs across {len(urls)} tools')
+          "
+
+      - name: Validate SQL dump parity
+        run: |
+          python -c "
+          import json, re
+          data = json.load(open('data/tools.json', encoding='utf-8'))
+          sql = open('data/tools.sql', encoding='utf-8').read()
+          sql_records = re.findall(r\"\('[a-f0-9\-]{36}',\", sql)
+          if len(sql_records) != len(data):
+              print(f'❌ Parity error: JSON has {len(data)} tools, SQL has {len(sql_records)} records')
+              exit(1)
+          print(f'✅ SQL dump parity confirmed — {len(sql_records)} records with DDL')
           "

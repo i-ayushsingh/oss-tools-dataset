@@ -24,8 +24,6 @@ jobs:
       # ── 1. Checkout ──────────────────────────────────────────────────────────
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GH_PAT }}   # use PAT so the push below is authenticated
 
       # ── 2. Python ────────────────────────────────────────────────────────────
       - name: Set up Python 3.12

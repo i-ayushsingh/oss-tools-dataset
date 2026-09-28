@@ -100,6 +100,18 @@ def validate(csv_path: Path) -> list[str]:
         except Exception as e:
             errors.append(f"Failed to read/parse {json_path}: {e}")
 
+    # Check parity with tools.sql if present
+    sql_path = csv_path.parent / "tools.sql"
+    if sql_path.exists():
+        try:
+            with open(sql_path, encoding="utf-8") as f:
+                sql_content = f.read()
+            sql_ids = re.findall(r"\('([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})'", sql_content, re.I)
+            if len(sql_ids) != len(df):
+                errors.append(f"Row count mismatch: CSV has {len(df)} rows, SQL has {len(sql_ids)} records")
+        except Exception as e:
+            errors.append(f"Failed to read/parse {sql_path}: {e}")
+
     return errors
 
 
