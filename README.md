@@ -1,11 +1,11 @@
 # Open Source Tools Dataset
 
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Tools](https://img.shields.io/badge/tools-1%2C208-blue)](data/tools.csv)
-[![Last Refresh](https://img.shields.io/badge/last%20refresh-April%202026-green)](CHANGELOG.md)
+[![Tools](https://img.shields.io/badge/tools-1%2C222-blue)](data/tools.csv)
+[![Last Refresh](https://img.shields.io/badge/last%20refresh-September%202026-green)](CHANGELOG.md)
 [![Weekly Update](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml/badge.svg)](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml)
 
-A curated, machine-readable dataset of **1,208 open-source tools** enriched with live GitHub metadata — scraped from 7 popular OSS discovery platforms.
+A curated, machine-readable dataset of **1,222 open-source tools** enriched with live GitHub metadata — scraped from 7 popular OSS discovery platforms.
 
 Originally collected for a personal project; now released as open data for anyone building directories, analytics, recommendation engines, or research on the OSS ecosystem.
 
@@ -28,7 +28,7 @@ Then load it:
 ```python
 import pandas as pd
 df = pd.read_csv("data/tools.csv")
-print(df.shape)           # (1208, 20)
+print(df.shape)           # (1222, 18)
 print(df.columns.tolist())
 ```
 
@@ -38,22 +38,22 @@ print(df.columns.tolist())
 
 | Metric | Value |
 |---|---|
-| Total tools | **1,208** |
-| Active (not archived) | **1,167** |
-| Archived | **41** |
-| Self-hostable | **842** |
-| Combined GitHub stars | **15,591,718** |
-| Average stars per tool | **13,080** |
-| Tools with a website URL | **1,180** |
-| Tools with a tracked release | **1,081** |
+| Total tools | **1,222** |
+| Active (not archived) | **1,174** |
+| Archived | **48** |
+| Self-hostable | **836** |
+| Combined GitHub stars | **19,371,657** |
+| Average stars per tool | **16,062** |
+| Tools with a website URL | **1,192** |
+| Tools with a tracked release | **1,095** |
 
 **Pricing breakdown**
 
 | Type | Count |
 |---|---|
-| Free | 629 |
-| Freemium | 446 |
-| Paid | 133 |
+| Free | 647 |
+| Freemium | 443 |
+| Paid | 132 |
 
 **Top origin countries** (excluding tools marked "Global")
 
@@ -61,11 +61,11 @@ United States · Germany · France · United Kingdom · India · Singapore · Ca
 
 **Top programming languages** (from GitHub repo metadata)
 
-Shell · JavaScript · CSS · HTML · Dockerfile · TypeScript · Python · Makefile · SCSS · Go
+TypeScript · Go · Python · JavaScript · PHP · C++ · Rust · Swift · Java · Ruby
 
 **Top licenses**
 
-MIT · Other · AGPL-3.0 · Apache-2.0 · GPL-3.0 · GPL-2.0 · MPL-2.0 · Proprietary · BSD-3-Clause
+MIT · AGPL-3.0 · Apache-2.0 · GPL-3.0 · GPL-2.0 · MPL-2.0 · BSD-3-Clause · LGPL-2.1
 
 ---
 
@@ -78,13 +78,13 @@ oss-tools-dataset/
 ├── CHANGELOG.md                     ← Version history
 ├── CONTRIBUTING.md                  ← How to contribute
 ├── data/
-│   ├── tools.csv                    ← Comma-separated, UTF-8 (607 KB)
-│   ├── tools.json                   ← JSON array of objects (1.1 MB)
-│   └── tools.sql                    ← PostgreSQL INSERT statements (658 KB)
+│   ├── tools.csv                    ← Comma-separated, UTF-8 (500+ KB)
+│   ├── tools.json                   ← JSON array of objects (1.0+ MB)
+│   └── tools.sql                    ← PostgreSQL DDL & INSERT statements (560+ KB)
 ├── scripts/
 │   ├── scrape_sources.py            ← Scrapes 7 OSS platforms for new tools
 │   ├── refresh_github_meta.py       ← Refreshes stars/releases/license via GitHub API
-│   ├── validate_schema.py           ← Schema validation (used in CI)
+│   ├── validate_schema.py           ← Tri-file schema validation (used in CI)
 │   └── requirements.txt             ← Python dependencies
 └── .github/
     ├── workflows/
@@ -102,7 +102,7 @@ All three data files contain **identical records** — use whichever format fits
 
 ## Schema
 
-Every record has 20 fields:
+Every record has 18 fields:
 
 | Field | Type | Description |
 |---|---|---|
@@ -113,8 +113,6 @@ Every record has 20 fields:
 | `website_url` | string \| null | Official website URL |
 | `stars` | integer \| null | GitHub star count (at last refresh) |
 | `last_updated` | timestamp | When this record was last refreshed |
-| `tags` | string \| null | Comma-separated tags *(reserved — currently null)* |
-| `platforms` | string \| null | Target platforms *(reserved — currently null)* |
 | `license` | string[] \| null | SPDX license identifiers e.g. `["MIT"]`, `["AGPL-3.0"]` |
 | `origin_country` | string \| null | Country of origin, or `"Global"` |
 | `language` | string[] \| null | Primary programming languages from GitHub |
@@ -126,8 +124,6 @@ Every record has 20 fields:
 | `latest_release_at` | timestamp \| null | Date of most recent release |
 | `pricing_type` | string | `"Free"`, `"Freemium"`, or `"Paid"` |
 | `is_self_hosted` | boolean \| null | Whether the tool can be self-hosted |
-
-> `tags` and `platforms` are intentionally null — they are kept in the schema to signal planned work. Contributions to fill them in are very welcome.
 
 ---
 
