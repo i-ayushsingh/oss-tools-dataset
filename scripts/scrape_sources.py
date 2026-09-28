@@ -285,8 +285,6 @@ def fetch_meta(github_url: str) -> Optional[dict]:
         "website_url":        repo.get("homepage") or None,
         "stars":              repo.get("stargazers_count"),
         "last_updated":       now,
-        "tags":               None,
-        "platforms":          None,
         "license":            [spdx],
         "origin_country":     None,
         "language":           [repo["language"]] if repo.get("language") else [],
@@ -302,20 +300,29 @@ def fetch_meta(github_url: str) -> Optional[dict]:
 
 
 # ── Merge ──────────────────────────────────────────────────────────────────────
+BLACKLIST_REPOS = {
+    "btw-so/btw",
+    "openalternative/openalternative",
+    "i-ayushsingh/oss-tools-dataset",
+}
+
 def merge(existing: list[dict], scraped_urls: list[str]) -> tuple[list[dict], int]:
     """Add genuinely new tools to the existing list."""
-    known = {normalise(t.get("github_url", "")) for t in existing if t.get("github_url")}
+    known = {normalise(t.get("github_url", "")).lower() for t in existing if t.get("github_url")}
     added = 0
 
     for url in scraped_urls:
         norm = normalise(url)
-        if not norm or norm in known:
+        if not norm:
+            continue
+        repo_sub = norm.lower().replace("https://github.com/", "")
+        if repo_sub in BLACKLIST_REPOS or norm.lower() in known:
             continue
         log.info(f"  + new tool: {norm}")
         meta = fetch_meta(norm)
         if meta:
             existing.append(meta)
-            known.add(norm)
+            known.add(norm.lower())
             added += 1
 
     return existing, added
@@ -328,9 +335,16 @@ def write_all(tools: list[dict]):
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(tools, f, indent=2, default=str, ensure_ascii=False)
 
-    pd.DataFrame(tools).to_csv(CSV_PATH, index=False)
+    cols = [
+        "id", "name", "description", "github_url", "website_url", "stars",
+        "last_updated", "license", "origin_country", "language",
+        "country_code", "is_archived", "owner_type", "avatar_url",
+        "latest_release_tag", "latest_release_at", "pricing_type", "is_self_hosted",
+    ]
 
-    cols = list(tools[0].keys()) if tools else []
+    df = pd.DataFrame(tools)
+    existing_cols = [c for c in cols if c in df.columns]
+    df[existing_cols].to_csv(CSV_PATH, index=False)
 
     def pg(v):
         if v is None or v == "": return "NULL"
@@ -341,10 +355,30 @@ def write_all(tools: list[dict]):
             return f"ARRAY[{inner}]"
         return f"'{str(v).replace(chr(39), chr(39)*2)}'"
 
-    rows = ["  (" + ", ".join(pg(t.get(c)) for c in cols) + ")" for t in tools]
+    rows = ["  (" + ", ".join(pg(t.get(c)) for c in existing_cols) + ")" for t in tools]
     sql  = (
         f"-- OSS Tools Dataset | generated {datetime.now(timezone.utc).date()} | {len(tools)} records\n\n"
-        f"INSERT INTO tools (\n  {', '.join(cols)}\n) VALUES\n"
+        f"CREATE TABLE IF NOT EXISTS tools (\n"
+        f"  id UUID PRIMARY KEY,\n"
+        f"  name TEXT NOT NULL,\n"
+        f"  description TEXT,\n"
+        f"  github_url TEXT,\n"
+        f"  website_url TEXT,\n"
+        f"  stars INTEGER,\n"
+        f"  last_updated TIMESTAMP WITH TIME ZONE,\n"
+        f"  license TEXT[],\n"
+        f"  origin_country TEXT,\n"
+        f"  language TEXT[],\n"
+        f"  country_code TEXT,\n"
+        f"  is_archived BOOLEAN DEFAULT FALSE,\n"
+        f"  owner_type TEXT,\n"
+        f"  avatar_url TEXT,\n"
+        f"  latest_release_tag TEXT,\n"
+        f"  latest_release_at TIMESTAMP WITH TIME ZONE,\n"
+        f"  pricing_type TEXT,\n"
+        f"  is_self_hosted BOOLEAN\n"
+        f");\n\n"
+        f"INSERT INTO tools (\n  {', '.join(existing_cols)}\n) VALUES\n"
         + ",\n".join(rows) + ";"
     )
     SQL_PATH.write_text(sql, encoding="utf-8")

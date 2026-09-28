@@ -20,8 +20,8 @@ import pandas as pd
 # ─── Schema ────────────────────────────────────────────────────────────────────
 REQUIRED_COLUMNS = [
     "id", "name", "description", "github_url", "website_url", "stars",
-    "last_updated", "tags", "platforms", "license", "origin_country",
-    "language", "country_code", "is_archived", "owner_type", "avatar_url",
+    "last_updated", "license", "origin_country", "language",
+    "country_code", "is_archived", "owner_type", "avatar_url",
     "latest_release_tag", "latest_release_at", "pricing_type", "is_self_hosted",
 ]
 
@@ -82,6 +82,23 @@ def validate(csv_path: Path) -> list[str]:
     dupes = df[df["id"].duplicated(keep=False)]["id"].unique()
     if len(dupes):
         errors.append(f"Duplicate IDs: {list(dupes)}")
+
+    # Duplicate GitHub URLs (ignoring empty)
+    gh_df = df[df["github_url"].str.strip() != ""]
+    gh_dupes = gh_df[gh_df["github_url"].str.lower().duplicated(keep=False)]["github_url"].unique()
+    if len(gh_dupes):
+        errors.append(f"Duplicate GitHub URLs: {list(gh_dupes)}")
+
+    # Check parity with tools.json if present
+    json_path = csv_path.parent / "tools.json"
+    if json_path.exists():
+        try:
+            with open(json_path, encoding="utf-8") as f:
+                json_data = json.load(f)
+            if len(json_data) != len(df):
+                errors.append(f"Row count mismatch: CSV has {len(df)} rows, JSON has {len(json_data)} records")
+        except Exception as e:
+            errors.append(f"Failed to read/parse {json_path}: {e}")
 
     return errors
 

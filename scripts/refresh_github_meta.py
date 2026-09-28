@@ -114,14 +114,26 @@ def main():
 
     print(f"\n✅ Refreshed {updated}/{len(tools)} tools")
 
+    if updated == 0:
+        print("⚠️  No tools were updated. Check your GITHUB_TOKEN. Skipping disk write to avoid phantom commits.")
+        return
+
     # ── Write JSON ──────────────────────────────────────────────────────────────
-    with open(JSON_PATH, "w") as f:
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(tools, f, indent=2, default=str, ensure_ascii=False)
     print(f"📄 Wrote {JSON_PATH}")
 
     # ── Write CSV ───────────────────────────────────────────────────────────────
+    cols = [
+        "id", "name", "description", "github_url", "website_url", "stars",
+        "last_updated", "license", "origin_country", "language",
+        "country_code", "is_archived", "owner_type", "avatar_url",
+        "latest_release_tag", "latest_release_at", "pricing_type", "is_self_hosted",
+    ]
     df = pd.DataFrame(tools)
-    df.to_csv(CSV_PATH, index=False)
+    # Ensure column order
+    existing_cols = [c for c in cols if c in df.columns]
+    df[existing_cols].to_csv(CSV_PATH, index=False)
     print(f"📄 Wrote {CSV_PATH}")
 
     # ── Write SQL ───────────────────────────────────────────────────────────────
@@ -130,11 +142,11 @@ def main():
 
 
 def write_sql(tools: list[dict]):
-    """Write PostgreSQL INSERT statements."""
+    """Write PostgreSQL CREATE TABLE and INSERT statements."""
     cols = [
         "id", "name", "description", "github_url", "website_url", "stars",
-        "last_updated", "tags", "platforms", "license", "origin_country",
-        "language", "country_code", "is_archived", "owner_type", "avatar_url",
+        "last_updated", "license", "origin_country", "language",
+        "country_code", "is_archived", "owner_type", "avatar_url",
         "latest_release_tag", "latest_release_at", "pricing_type", "is_self_hosted",
     ]
 
@@ -153,8 +165,29 @@ def write_sql(tools: list[dict]):
 
     lines = [
         "-- OSS Tools Dataset",
-        f"-- Generated: {datetime.now(timezone.utc).isoformat()}",
+        f"-- Generated: {datetime.now(timezone.utc).date()}",
         f"-- Records: {len(tools)}",
+        "",
+        "CREATE TABLE IF NOT EXISTS tools (",
+        "  id UUID PRIMARY KEY,",
+        "  name TEXT NOT NULL,",
+        "  description TEXT,",
+        "  github_url TEXT,",
+        "  website_url TEXT,",
+        "  stars INTEGER,",
+        "  last_updated TIMESTAMP WITH TIME ZONE,",
+        "  license TEXT[],",
+        "  origin_country TEXT,",
+        "  language TEXT[],",
+        "  country_code TEXT,",
+        "  is_archived BOOLEAN DEFAULT FALSE,",
+        "  owner_type TEXT,",
+        "  avatar_url TEXT,",
+        "  latest_release_tag TEXT,",
+        "  latest_release_at TIMESTAMP WITH TIME ZONE,",
+        "  pricing_type TEXT,",
+        "  is_self_hosted BOOLEAN",
+        ");",
         "",
         "INSERT INTO tools (",
         "  " + ", ".join(cols),
