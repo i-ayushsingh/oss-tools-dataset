@@ -19,7 +19,8 @@ Download the data in your preferred format:
 # Clone the full repo
 git clone https://github.com/i-ayushsingh/oss-tools-dataset.git
 
-# Or download just the CSV (no git needed)
+# Or download just the dataset file directly
+curl -O https://raw.githubusercontent.com/i-ayushsingh/oss-tools-dataset/main/data/tools.parquet
 curl -O https://raw.githubusercontent.com/i-ayushsingh/oss-tools-dataset/main/data/tools.csv
 ```
 
@@ -27,7 +28,13 @@ Then load it:
 
 ```python
 import pandas as pd
-df = pd.read_csv("data/tools.csv")
+
+# Load Apache Parquet (fastest, preserves list types and nulls, ~235 KB)
+df = pd.read_parquet("data/tools.parquet")
+
+# Or load CSV
+# df = pd.read_csv("data/tools.csv")
+
 print(df.shape)           # (1221, 18)
 print(df.columns.tolist())
 ```
@@ -78,13 +85,14 @@ oss-tools-dataset/
 ├── CHANGELOG.md                     ← Version history
 ├── CONTRIBUTING.md                  ← How to contribute
 ├── data/
-│   ├── tools.csv                    ← Comma-separated, UTF-8 (500+ KB)
-│   ├── tools.json                   ← JSON array of objects (1.0+ MB)
-│   └── tools.sql                    ← PostgreSQL DDL & INSERT statements (560+ KB)
+│   ├── tools.parquet                ← Apache Parquet, Snappy compressed (~235 KB)
+│   ├── tools.csv                    ← Comma-separated, UTF-8 (~520 KB)
+│   ├── tools.json                   ← JSON array of objects (~1.0 MB)
+│   └── tools.sql                    ← PostgreSQL DDL & INSERT statements (~560 KB)
 ├── scripts/
 │   ├── scrape_sources.py            ← Scrapes 7 OSS platforms for new tools
 │   ├── refresh_github_meta.py       ← Refreshes stars/releases/license via GitHub API
-│   ├── validate_schema.py           ← Tri-file schema validation (used in CI)
+│   ├── validate_schema.py           ← Quad-format schema validation (used in CI)
 │   └── requirements.txt             ← Python dependencies
 └── .github/
     ├── workflows/
@@ -96,7 +104,8 @@ oss-tools-dataset/
         └── fix_data.yml             ← Template for reporting a data error
 ```
 
-All three data files contain **identical records** — use whichever format fits your stack.
+All four data files contain **identical records** — use whichever format fits your stack.
+
 
 ---
 

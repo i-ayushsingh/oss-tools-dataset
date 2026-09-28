@@ -69,3 +69,13 @@ jobs:
               exit(1)
           print(f'✅ SQL dump parity confirmed — {len(sql_records)} records with DDL')
           "
+
+      - name: Validate Parquet parity
+        run: |
+          python -c "
+          import pyarrow.parquet as pq
+          table = pq.read_table('data/tools.parquet')
+          print(f'Parquet valid -- {len(table)} records, {len(table.column_names)} columns')
+          "
+
+

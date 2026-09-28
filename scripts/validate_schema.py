@@ -112,7 +112,19 @@ def validate(csv_path: Path) -> list[str]:
         except Exception as e:
             errors.append(f"Failed to read/parse {sql_path}: {e}")
 
+    # Check parity with tools.parquet if present
+    parquet_path = csv_path.parent / "tools.parquet"
+    if parquet_path.exists():
+        try:
+            import pyarrow.parquet as pq
+            table = pq.read_table(parquet_path)
+            if len(table) != len(df):
+                errors.append(f"Row count mismatch: CSV has {len(df)} rows, Parquet has {len(table)} records")
+        except Exception as e:
+            errors.append(f"Failed to read/parse {parquet_path}: {e}")
+
     return errors
+
 
 
 # ─── Entry point ───────────────────────────────────────────────────────────────

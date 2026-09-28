@@ -28,6 +28,7 @@ DATA_DIR   = Path(__file__).parent.parent / "data"
 JSON_PATH  = DATA_DIR / "tools.json"
 CSV_PATH   = DATA_DIR / "tools.csv"
 SQL_PATH   = DATA_DIR / "tools.sql"
+PARQUET_PATH = DATA_DIR / "tools.parquet"
 
 GITHUB_API  = "https://api.github.com"
 TOKEN       = os.environ.get("GITHUB_TOKEN", "")          # set via env or GH secret
@@ -135,6 +136,54 @@ def main():
     existing_cols = [c for c in cols if c in df.columns]
     df[existing_cols].to_csv(CSV_PATH, index=False)
     print(f"📄 Wrote {CSV_PATH}")
+
+    # ── Write Parquet ───────────────────────────────────────────────────────────
+    try:
+        import pyarrow as pa
+        import pyarrow.parquet as pq
+        schema = pa.schema([
+            ("id", pa.string()),
+            ("name", pa.string()),
+            ("description", pa.string()),
+            ("github_url", pa.string()),
+            ("website_url", pa.string()),
+            ("stars", pa.int64()),
+            ("last_updated", pa.string()),
+            ("license", pa.list_(pa.string())),
+            ("origin_country", pa.string()),
+            ("language", pa.list_(pa.string())),
+            ("country_code", pa.string()),
+            ("is_archived", pa.bool_()),
+            ("owner_type", pa.string()),
+            ("avatar_url", pa.string()),
+            ("latest_release_tag", pa.string()),
+            ("latest_release_at", pa.string()),
+            ("pricing_type", pa.string()),
+            ("is_self_hosted", pa.bool_()),
+        ])
+        cleaned = []
+        for t in tools:
+            c = dict(t)
+            for k in ["website_url", "origin_country", "country_code", "avatar_url", "latest_release_tag", "latest_release_at", "pricing_type"]:
+                if c.get(k) == "": c[k] = None
+            if c.get("stars") is not None and c.get("stars") != "":
+                c["stars"] = int(float(c["stars"]))
+            else:
+                c["stars"] = None
+            if isinstance(c.get("is_archived"), str):
+                c["is_archived"] = c["is_archived"].lower() == "true"
+            if isinstance(c.get("is_self_hosted"), str):
+                c["is_self_hosted"] = c["is_self_hosted"].lower() == "true"
+            if not isinstance(c.get("license"), list):
+                c["license"] = [str(c["license"])] if c.get("license") else []
+            if not isinstance(c.get("language"), list):
+                c["language"] = [str(c["language"])] if c.get("language") else []
+            cleaned.append(c)
+        table = pa.Table.from_pylist(cleaned, schema=schema)
+        pq.write_table(table, PARQUET_PATH, compression="snappy")
+        print(f"📄 Wrote {PARQUET_PATH}")
+    except Exception as e:
+        print(f"⚠️ Could not write Parquet: {e}")
 
     # ── Write SQL ───────────────────────────────────────────────────────────────
     write_sql(tools)

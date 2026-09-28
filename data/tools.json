@@ -100,17 +100,17 @@
     "name": "Hidden",
     "description": "An ultra-light macOS utility that helps hide menu bar icons.",
     "github_url": "https://github.com/dwarvesf/hidden",
-    "website_url": "",
+    "website_url": null,
     "stars": 14444,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Swift"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -448,8 +448,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/inkscape.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -492,7 +492,7 @@
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/kaneo.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -770,17 +770,17 @@
     "name": "Hello HTTP",
     "description": "A cross-platform HTTP client for testing REST APIs, WebSocket, GraphQL and gRPC endpoints.",
     "github_url": "https://github.com/sunny-chung/hello-http",
-    "website_url": "",
+    "website_url": null,
     "stars": 114,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Kotlin"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -1230,7 +1230,7 @@
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "JavaScript"
     ],
@@ -1286,8 +1286,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/justnote.cc?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -1310,8 +1310,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/reflet.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -1550,8 +1550,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/cloudmark.site?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -1740,8 +1740,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/nxos.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -1876,11 +1876,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C++"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/getmonero.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -1972,7 +1972,7 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "PHP"
     ],
@@ -2062,7 +2062,7 @@
     "name": "CC-Beeper",
     "description": "A floating macOS pager for Claude Code. Stop babysitting your terminal monitor Claude’s progress and respond by voice directly from your desktop.",
     "github_url": "https://github.com/vecartier/cc-beeper",
-    "website_url": "",
+    "website_url": null,
     "stars": 172,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -2092,11 +2092,11 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/cloudberry.apache.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -2140,11 +2140,11 @@
     "license": [
       "Vim"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Vim Script"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/vim.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -2412,8 +2412,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/docs.searxng.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -2460,8 +2460,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/mailtrain.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -2518,7 +2518,7 @@
     "name": "TauView",
     "description": "Minimalist image viewer based on Leaflet.js and Tauri.",
     "github_url": "https://github.com/sprout2000/tauview",
-    "website_url": "",
+    "website_url": null,
     "stars": 170,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -2731,8 +2731,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/flogo.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -3019,8 +3019,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/wikiless.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -3028,19 +3028,19 @@
     "id": "1860a818-595a-43aa-b7c9-108746af54a3",
     "name": "Proton Drive",
     "description": "End-to-end encrypted cloud storage to securely back up files, access them anywhere, and share them with anyone.",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://proton.me/drive",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/proton.me?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -3395,7 +3395,7 @@
     "language": [
       "C#"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/nopcommerce.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -3495,8 +3495,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/odoo.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": true
   },
@@ -3615,8 +3615,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/nodered.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -3805,8 +3805,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/bmrk.cc?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -3821,11 +3821,11 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/yaak.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -3877,8 +3877,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -3893,11 +3893,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "JavaScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/mlcraft.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -3925,8 +3925,8 @@
     "is_archived": true,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -4117,8 +4117,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/fullcalendar.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -4141,8 +4141,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/codeberg.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -4189,8 +4189,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/computir.ai?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -4213,8 +4213,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/peergos.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -4329,7 +4329,7 @@
     "language": [
       "Go"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/uptrace.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -4541,11 +4541,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "PHP"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -4733,7 +4733,7 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
@@ -4765,8 +4765,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/scira.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -5077,8 +5077,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/skiff.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": true
   },
@@ -5549,11 +5549,11 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Kotlin"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/thunderbird.net?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -5567,7 +5567,7 @@
     "name": "IceCubes",
     "description": "A SwiftUI Mastodon client",
     "github_url": "https://github.com/Dimillian/IceCubesApp",
-    "website_url": "",
+    "website_url": null,
     "stars": 7025,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -5725,8 +5725,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/contentport.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -6005,11 +6005,11 @@
     "license": [
       "BSD-2-Clause"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "JavaScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/trac.torproject.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -6325,8 +6325,8 @@
     "is_archived": true,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/nucelo.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -6397,8 +6397,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/binternet.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -6445,8 +6445,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/marblecms.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -6557,11 +6557,11 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Elixir"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/phoenixframework.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -6781,8 +6781,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/azimutt.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -6884,19 +6884,19 @@
     "id": "39ab1470-31db-4be6-bd56-acd0a64060d7",
     "name": "Linux Mint",
     "description": "A desktop Linux distribution featuring the Cinnamon desktop",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://linuxmint.com/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/linuxmint.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -7231,8 +7231,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/slugy.co?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -7303,8 +7303,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/developers.raycast.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -7553,7 +7553,7 @@
     "name": "Flycut",
     "description": "Clean and simple clipboard manager for developers",
     "github_url": "https://github.com/TermiT/Flycut",
-    "website_url": "",
+    "website_url": null,
     "stars": 2673,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -7745,7 +7745,7 @@
     "name": "AutoMute",
     "description": "Automatically mute sound when headphones disconnect or Mac sleeps",
     "github_url": "https://github.com/yonilevy/automute",
-    "website_url": "",
+    "website_url": null,
     "stars": 283,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -8080,19 +8080,19 @@
     "id": "4798a142-c270-4910-9ebb-b9dea74c4a82",
     "name": "Proton Mail",
     "description": "Secure email service with end-to-end encryption",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://proton.me/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/proton.me?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": true
   },
@@ -8221,7 +8221,7 @@
     "name": "OpenLLaMA",
     "description": "An open-source reproduction of Meta AI’s LLaMA models, offering permissively licensed weights in 3B, 7B, and 13B parameter sizes compatible with both PyTorch and JAX.",
     "github_url": "https://github.com/openlm-research/open_llama",
-    "website_url": "",
+    "website_url": null,
     "stars": 7530,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -8233,8 +8233,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -8297,11 +8297,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/mpv.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -8441,14 +8441,14 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/borgbackup.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -8625,7 +8625,7 @@
     "name": "Steel‑LLM",
     "description": "A fully open-source, 1B-parameter Chinese-centric language model trained from scratch, with complete access to code, data, checkpoints, and logs under the Apache 2.0 license.",
     "github_url": "https://github.com/zhanshijinwat/Steel-LLM",
-    "website_url": "",
+    "website_url": null,
     "stars": 810,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -8639,10 +8639,10 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
-    "is_self_hosted": ""
+    "is_self_hosted": null
   },
   {
     "id": "4c4e3640-30a3-49df-a276-0458d156cd5c",
@@ -8655,11 +8655,11 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/redlib.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -8807,8 +8807,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/ladybird.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -8855,8 +8855,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/biblioreads.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -9087,7 +9087,7 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "JavaScript"
     ],
@@ -9119,8 +9119,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/instantdb.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -9153,7 +9153,7 @@
     "name": "CalendarX",
     "description": "A lightweight macOS app for displaying calendar and time",
     "github_url": "https://github.com/ZzzM/CalendarX",
-    "website_url": "",
+    "website_url": null,
     "stars": 482,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -9359,8 +9359,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/sfu.mirotalk.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -9375,7 +9375,7 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
@@ -9417,7 +9417,7 @@
     "name": "ControlRoom",
     "description": "A macOS app to control the Xcode Simulator.",
     "github_url": "https://github.com/twostraws/ControlRoom",
-    "website_url": "",
+    "website_url": null,
     "stars": 6091,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -9455,8 +9455,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/go.openalternative.co?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -9537,7 +9537,7 @@
     "name": "LeafView",
     "description": "Minimalist image viewer based on Leaflet.js and Electron",
     "github_url": "https://github.com/sprout2000/leafview",
-    "website_url": "",
+    "website_url": null,
     "stars": 353,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -10031,8 +10031,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/itz.am?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -10095,11 +10095,11 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Swift"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/monitorcontrol.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -10127,8 +10127,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/palform.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -10151,8 +10151,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/glimesh.tv?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -10185,7 +10185,7 @@
     "name": "MacSymbolicator",
     "description": "Symbolicating macOS/iOS crash reports, easily.",
     "github_url": "https://github.com/inket/MacSymbolicator",
-    "website_url": "",
+    "website_url": null,
     "stars": 1667,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -10304,19 +10304,19 @@
     "id": "5c78b74b-c8ec-44ef-9e6b-742f00353483",
     "name": "Guifinet",
     "description": "Open, free and neutral wireless network for everyone.",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://guifi.net",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/guifi.net?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -10531,8 +10531,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/moxin.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -10620,13 +10620,13 @@
       "Unknown"
     ],
     "origin_country": "Jordan",
-    "language": "",
-    "country_code": "",
-    "is_archived": "",
-    "owner_type": "",
+    "language": [],
+    "country_code": null,
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/tilly.work?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -10647,8 +10647,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/wundergraph.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -10879,11 +10879,11 @@
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Rust"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/espanso.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -11079,8 +11079,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/suprascribe.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -11175,8 +11175,8 @@
     "is_archived": true,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -11256,19 +11256,19 @@
     "id": "648daeba-d7aa-43fd-9b65-6630115bb081",
     "name": "Matrix",
     "description": "An open network for secure decentralized communication",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://matrix.org/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/matrix.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -11355,11 +11355,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Rust"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/stoat.chat?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -11479,7 +11479,7 @@
     "language": [
       "Swift"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/gif.ski?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -12859,7 +12859,7 @@
     "name": "HostsX",
     "description": "A lightweight macOS app for updating local hosts",
     "github_url": "https://github.com/ZzzM/HostsX",
-    "website_url": "",
+    "website_url": null,
     "stars": 310,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -12906,19 +12906,19 @@
     "id": "7169421c-6e36-4498-8774-3ae185b2148a",
     "name": "Pagekite",
     "description": "Localhost tunneling service.",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://pagekite.net",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Iceland",
-    "language": "",
-    "country_code": "",
-    "is_archived": "",
-    "owner_type": "",
+    "language": [],
+    "country_code": null,
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/pagekite.net?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -13133,8 +13133,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/athensresearch.github.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -13341,11 +13341,11 @@
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Python"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/archlinux.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -13541,8 +13541,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/brace.to?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -13611,8 +13611,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/fosscord.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -13683,8 +13683,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/lin.ky?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -13837,7 +13837,7 @@
     "name": "Calendr",
     "description": "Menu bar calendar for macOS - MVVM | RxSwift | AppKit | SwiftUI",
     "github_url": "https://github.com/pakerwreah/Calendr",
-    "website_url": "",
+    "website_url": null,
     "stars": 2284,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -13919,7 +13919,7 @@
     "language": [
       "Elixir"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/semaphore.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -14283,8 +14283,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/uninbox.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -14323,11 +14323,11 @@
     "license": [
       "AGPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/brie.fi?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -14375,12 +14375,12 @@
     "language": [
       "JavaScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/crypt.ee?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -14427,8 +14427,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/zola.chat?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -14509,7 +14509,7 @@
     "name": "N8N2MCP",
     "description": "It converts N8N workflows into MCP servers for AI assistants like Claude and Cursor, enabling powerful AI-driven automation.",
     "github_url": "https://github.com/Super-Chain/N8N2MCP",
-    "website_url": "",
+    "website_url": null,
     "stars": 133,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -14523,8 +14523,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -14619,8 +14619,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/proxed.ai?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -14643,8 +14643,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/ikiform.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -14715,8 +14715,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/techblitz.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -14763,8 +14763,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/wiki.freifunk.net?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -14811,8 +14811,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/router.so?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -14875,11 +14875,11 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/openpolicy.sh?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -14900,13 +14900,13 @@
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/docs.gotosocial.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -15169,8 +15169,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/formizee.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -15529,8 +15529,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -15563,7 +15563,7 @@
     "name": "SwiftQuit",
     "description": "Automatic quitting of macOS apps when closing their windows.",
     "github_url": "https://github.com/onebadidea/swiftquit",
-    "website_url": "",
+    "website_url": null,
     "stars": 545,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -15729,7 +15729,7 @@
     "name": "MakeItHome",
     "description": "UI extender for macOS",
     "github_url": "https://github.com/Geckos-Ink/MakeItHome",
-    "website_url": "",
+    "website_url": null,
     "stars": 38,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -15753,7 +15753,7 @@
     "name": "bitchat",
     "description": "Decentralized, peer-to-peer messaging app using Bluetooth mesh networks for secure, offline communication with IRC-style commands.",
     "github_url": "https://github.com/permissionlesstech/bitchat",
-    "website_url": "",
+    "website_url": null,
     "stars": 26119,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -15815,8 +15815,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/p2p.mirotalk.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -15969,7 +15969,7 @@
     "name": "UnnaturalScrollWheels",
     "description": "Invert scroll direction for physical mice on macOS",
     "github_url": "https://github.com/ther0n/UnnaturalScrollWheels",
-    "website_url": "",
+    "website_url": null,
     "stars": 4148,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -16161,17 +16161,17 @@
     "name": "Multi",
     "description": "Create custom, lightweight macOS apps from websites",
     "github_url": "https://github.com/kofigumbs/multi",
-    "website_url": "",
+    "website_url": null,
     "stars": 1398,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Swift"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -16559,8 +16559,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/dolibarr.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -16579,7 +16579,7 @@
     "language": [
       "JavaScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/supereasyforms.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -16719,11 +16719,11 @@
     "license": [
       "GPL-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Python"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/mypaint.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -16843,7 +16843,7 @@
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/tolgee.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -17109,8 +17109,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/robocorp.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -17325,8 +17325,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/bangle.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -17373,8 +17373,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/osohq.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": true
   },
@@ -17430,19 +17430,19 @@
     "id": "99123e92-3c53-46c3-8ff3-e71289d55616",
     "name": "Proton VPN",
     "description": "A secure VPN service from Proton",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://protonvpn.com/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/protonvpn.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -17451,7 +17451,7 @@
     "name": "Tiny Wi-Fi Analyzer",
     "description": "An open-source tiny Wi-Fi analyzer for macOS",
     "github_url": "https://github.com/nolze/tiny-wifi-analyzer",
-    "website_url": "",
+    "website_url": null,
     "stars": 308,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -17745,7 +17745,7 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Go"
     ],
@@ -17952,19 +17952,19 @@
     "id": "9d7878ad-d2d6-4481-93cc-7f0b66d8bf8b",
     "name": "Zorin OS",
     "description": "A Linux distribution designed for Windows users transitioning to Linux",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://zorin.com/os/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/zorin.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -18188,19 +18188,19 @@
     "id": "9ed03008-3b0a-47e0-9740-5d54f5b7dd16",
     "name": "Mullvad",
     "description": "No-log WireGuard VPN provider.",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://mullvad.net",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Sweden",
-    "language": "",
+    "language": [],
     "country_code": "SE",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/mullvad.net?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -18365,8 +18365,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -18581,8 +18581,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/zenblog.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -18797,8 +18797,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/modulz.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": false
   },
@@ -18841,7 +18841,7 @@
     "language": [
       "Shell"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/go.openalternative.co?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -19037,8 +19037,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/tryabby.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -19238,19 +19238,19 @@
     "description": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.",
     "github_url": "https://github.com/Whonix/Whonix",
     "website_url": "https://www.whonix.org",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
     "license": [
       "Unknown"
     ],
     "origin_country": "Germany",
-    "language": "",
+    "language": [],
     "country_code": "DE",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/whonix.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -19276,7 +19276,7 @@
     "latest_release_tag": "3.3.7",
     "latest_release_at": "2026-06-03T15:25:03Z",
     "pricing_type": "Free",
-    "is_self_hosted": ""
+    "is_self_hosted": null
   },
   {
     "id": "aa5e8887-c664-4601-86a7-d69f855a4979",
@@ -19393,8 +19393,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/double-zero.cloud?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -19738,19 +19738,19 @@
     "description": "A privacy-focused GitHub frontend",
     "github_url": "https://github.com/iv-org/gothub",
     "website_url": "https://gothub.privacyredirect.com/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
     "license": [
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/gothub.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -19797,8 +19797,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/chalk.ist?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -19879,7 +19879,7 @@
     "name": "WWDC",
     "description": "The unofficial WWDC app for macOS",
     "github_url": "https://github.com/insidegui/WWDC",
-    "website_url": "",
+    "website_url": null,
     "stars": 8756,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -19909,7 +19909,7 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "JavaScript"
     ],
@@ -19981,7 +19981,7 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Go"
     ],
@@ -20048,19 +20048,19 @@
     "description": "XMPP client for Android.",
     "github_url": "https://github.com/siacs/Conversations.git",
     "website_url": "https://github.com/siacs/Conversations",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
     "license": [
       "Unknown"
     ],
     "origin_country": "Germany",
-    "language": "",
+    "language": [],
     "country_code": "DE",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -20107,8 +20107,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/popspace.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -20203,8 +20203,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/fountain.ink?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -20267,14 +20267,14 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/revolt.chat?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -20345,8 +20345,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/sessy.do?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -20699,7 +20699,7 @@
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/kanba.co?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -20767,11 +20767,11 @@
     "license": [
       "BSD-3-Clause"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C++"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/adobe.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -20847,8 +20847,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/vemetric.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Paid",
     "is_self_hosted": true
   },
@@ -20919,8 +20919,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/lobste.rs?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -21207,8 +21207,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/wintercms.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -21567,8 +21567,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/sendune.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -21583,7 +21583,7 @@
     "license": [
       "Apache-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Python"
     ],
@@ -21655,11 +21655,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/askorama.ai?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -22160,13 +22160,13 @@
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/iffy.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -22174,19 +22174,19 @@
     "id": "c59e1042-8319-4e66-8843-a0a79ecb6d44",
     "name": "Pop!_OS",
     "description": "Pop!_OS Linux distribution by System76",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://pop.system76.com/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/pop.system76.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -22257,8 +22257,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/deckdeckgo.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -22305,8 +22305,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/argos-ci.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -22369,11 +22369,11 @@
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C++"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/flameshot.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -22530,19 +22530,19 @@
     "id": "c8f94126-6d91-490b-ad75-ce2724b1da5a",
     "name": "Posteo",
     "description": "A green ad-free email provider with strong privacy protection",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://posteo.de/",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
+    "license": [],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/posteo.de?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -22582,13 +22582,13 @@
       "Unknown"
     ],
     "origin_country": "Belgium",
-    "language": "",
+    "language": [],
     "country_code": "BE",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/intel.aikido.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -22871,7 +22871,7 @@
     "language": [
       "Java"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/clearflask.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -22895,7 +22895,7 @@
     "language": [
       "HTML"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/microweber.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -22923,8 +22923,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/ray.so?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -23087,7 +23087,7 @@
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/worklenz.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -23131,11 +23131,11 @@
     "license": [
       "GPL-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "HTML"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/imageoptim.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -23183,7 +23183,7 @@
     "language": [
       "Java"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/scoold.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -23227,7 +23227,7 @@
     "license": [
       "BSD-3-Clause"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "HTML"
     ],
@@ -23425,8 +23425,8 @@
     "is_archived": true,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/comma.to?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -23441,11 +23441,11 @@
     "license": [
       "GPL-3.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Java"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": true,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/guardianproject.info?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -23471,8 +23471,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/wire.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -23519,8 +23519,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/btw.so?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -23600,19 +23600,19 @@
     "id": "d3a5a109-78be-4199-baca-52de9e42bdcb",
     "name": "Etesync",
     "description": "Encrypted calendar, contacts and tasks sync.",
-    "github_url": "",
+    "github_url": null,
     "website_url": "https://www.etesync.com",
-    "stars": "",
+    "stars": null,
     "last_updated": "",
-    "license": "",
-    "origin_country": "",
-    "language": "",
-    "country_code": "",
-    "is_archived": "",
-    "owner_type": "",
+    "license": [],
+    "origin_country": null,
+    "language": [],
+    "country_code": null,
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/etesync.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -23707,8 +23707,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/openstatus.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -23868,13 +23868,13 @@
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/tuleap.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -24401,8 +24401,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/snapify.it?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -24521,8 +24521,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/managee.xyz?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -24585,7 +24585,7 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Go"
     ],
@@ -24685,7 +24685,7 @@
     "language": [
       "PHP"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": true,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/boxbilling.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -24709,7 +24709,7 @@
     "language": [
       "C++"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/organicmaps.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -25169,8 +25169,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/aptabase.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -25179,7 +25179,7 @@
     "name": "ComfyUI-Copilot",
     "description": "An AI-powered custom node for ComfyUI, enhancing workflow automation and providing intelligent assistance for AI tasks.",
     "github_url": "https://github.com/AIDC-AI/ComfyUI-Copilot",
-    "website_url": "",
+    "website_url": null,
     "stars": 5382,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -25257,11 +25257,11 @@
     "license": [
       "MPL-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "Go"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/anonymousoverflow.privacyredirect.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -25425,11 +25425,11 @@
     "license": [
       "GPL-2.0"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "C"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/geany.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -26011,7 +26011,7 @@
     "language": [
       "Swift"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/corkmac.app?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -26063,8 +26063,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/hey.xyz?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -26207,8 +26207,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/bubblelab.ai?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -26373,8 +26373,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/quant-ux.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -26438,13 +26438,13 @@
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/linktr.ee?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -26563,8 +26563,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/privacyidea.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -26621,7 +26621,7 @@
     "name": "Brooklyn",
     "description": "🍎 Screensaver inspired by Apple's Event on October 30, 2018",
     "github_url": "https://github.com/pedrommcarrasco/Brooklyn",
-    "website_url": "",
+    "website_url": null,
     "stars": 5626,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -26659,8 +26659,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -26831,8 +26831,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/umbraco.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -27047,8 +27047,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/statusscout.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -27239,8 +27239,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/omoios.dev?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -27287,8 +27287,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/piped.kavin.rocks?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -27321,7 +27321,7 @@
     "name": "SlowQuitApps",
     "description": "Add a global delay to the Quit keyboard shortcut on macOS",
     "github_url": "https://github.com/dteoh/SlowQuitApps",
-    "website_url": "",
+    "website_url": null,
     "stars": 1226,
     "last_updated": "2026-07-20 06:17:55.892",
     "license": [
@@ -27369,20 +27369,20 @@
     "name": "Pine",
     "description": "A macOS app for managing Pinecone vector databases",
     "github_url": "https://github.com/lukaker/pine",
-    "website_url": "",
-    "stars": "",
+    "website_url": null,
+    "stars": null,
     "last_updated": "",
     "license": [
       "Unknown"
     ],
     "origin_country": "Global",
-    "language": "",
+    "language": [],
     "country_code": "UN",
-    "is_archived": "",
-    "owner_type": "",
+    "is_archived": false,
+    "owner_type": null,
     "avatar_url": "https://img.logo.dev/github.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -27501,8 +27501,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/qwenlm.github.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": true
   },
@@ -27765,8 +27765,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/lavalite.org?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": true
   },
@@ -27805,7 +27805,7 @@
     "license": [
       "MIT"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "TypeScript"
     ],
@@ -28053,8 +28053,8 @@
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/wordle.global?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Free",
     "is_self_hosted": false
   },
@@ -28073,7 +28073,7 @@
     "language": [
       "TypeScript"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/mockoon.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -28217,7 +28217,7 @@
     "language": [
       "Java"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/dbeaver.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -28309,11 +28309,11 @@
     "license": [
       "Unknown"
     ],
-    "origin_country": "",
+    "origin_country": null,
     "language": [
       "PHP"
     ],
-    "country_code": "",
+    "country_code": null,
     "is_archived": false,
     "owner_type": "User",
     "avatar_url": "https://img.logo.dev/keka.io?token=pk_MauVQceUSgaLrE87BqU4Kw",
@@ -28389,8 +28389,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/bolt.new?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
@@ -28677,8 +28677,8 @@
     "is_archived": false,
     "owner_type": "Organization",
     "avatar_url": "https://img.logo.dev/graphitedocs.com?token=pk_MauVQceUSgaLrE87BqU4Kw",
-    "latest_release_tag": "",
-    "latest_release_at": "",
+    "latest_release_tag": null,
+    "latest_release_at": null,
     "pricing_type": "Freemium",
     "is_self_hosted": false
   },
