@@ -2,6 +2,7 @@
 
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Tools](https://img.shields.io/badge/tools-1%2C221-blue)](data/tools.csv)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/i-ayushsingh/oss-tools-dataset)
 [![Last Refresh](https://img.shields.io/badge/last%20refresh-September%202026-green)](CHANGELOG.md)
 [![Weekly Update](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml/badge.svg)](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml)
 
@@ -27,17 +28,22 @@ curl -O https://raw.githubusercontent.com/i-ayushsingh/oss-tools-dataset/main/da
 Then load it:
 
 ```python
-import pandas as pd
+# 1. From Hugging Face Datasets (no repo clone needed)
+from datasets import load_dataset
+dataset = load_dataset("i-ayushsingh/oss-tools-dataset")
+df = dataset["train"].to_pandas()
 
-# Load Apache Parquet (fastest, preserves list types and nulls, ~235 KB)
+# 2. Or from local Apache Parquet (~235 KB, preserves lists and types)
+import pandas as pd
 df = pd.read_parquet("data/tools.parquet")
 
-# Or load CSV
+# 3. Or from local CSV
 # df = pd.read_csv("data/tools.csv")
 
 print(df.shape)           # (1221, 18)
 print(df.columns.tolist())
 ```
+
 
 ---
 
