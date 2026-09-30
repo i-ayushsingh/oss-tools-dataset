@@ -3,6 +3,7 @@
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Tools](https://img.shields.io/badge/tools-1%2C221-blue)](data/tools.csv)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/i-ayushsingh/oss-tools-dataset)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/thefoolishera/open-source-tools-dataset)
 [![Last Refresh](https://img.shields.io/badge/last%20refresh-September%202026-green)](CHANGELOG.md)
 [![Weekly Update](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml/badge.svg)](https://github.com/i-ayushsingh/oss-tools-dataset/actions/workflows/weekly_update.yml)
 
